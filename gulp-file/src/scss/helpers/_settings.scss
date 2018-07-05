@@ -1,0 +1,45 @@
+/* Settings
+----------------------------------------------------------------------- */
+
+//OOCS
+#RELATIVE 				{ position: relative; }
+#ABSOLUTE 				{ position: absolute; }
+#FIXED 					{ position: fixed; }
+#LEFT 					{ float: left; }
+#RIGHT 					{ float: right; }
+#CONTENT				{ content: ""; }
+#CENTERMARGIN           { margin: 0 auto; }
+
+//DISPLAY
+#HIDE 					{ display: $hide; }
+#SHOW 					{ display: $show; }
+#IN-BLOCK				{ display: $in-block; }
+
+//SPACE
+#NO-MARGIN 				{ margin: $zero; }
+#NO-PADDING 			{ padding: $zero; }
+
+//FONT
+#FAMILY					{ font-family: 'Roboto', sans-serif; }
+#LIGHTER 				{ font-weight: lighter; }
+#NORMAL 				{ font-weight: normal; }
+#BOLD					{ font-weight: bold; }
+#ITALIC					{ font-style: italic; }
+
+//BORDER
+#NO-BORDER 				{ border: $hide; }
+
+//TEXT
+#INDENT 				{ text-indent: -9999px; }
+#UNDERLINE 				{ text-decoration: underline; }
+#NO-UNDERLINE 			{ text-decoration: $hide; }
+#UPPERCASE 				{ text-transform: uppercase; }
+#LOWERCASE				{ text-transform: lowercase; }
+#CENTER					{ text-align: center; }
+
+//OTHERS
+#POINTER				{ cursor: pointer; }
+#NO-LIST 				{ list-style: $hide; }
+#CIRCLE					{ border-radius: 50%; }
+#OVERFLOW               { overflow: auto; }
+#HIDDEN                 { overflow: hidden; }

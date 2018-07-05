@@ -1,0 +1,15 @@
+/* Colors
+----------------------------------------------------------------------- */
+
+// Color Default
+$silver:			#E8E8E8;
+$concrete:			#7F7F7F;
+$midnight:          #2C3E50;
+$cherry:            #FF1D5B;
+
+// Color Saturation
+$light:             lighten( $silver, 10% );
+$dark:              #201F24;
+
+// Alpha Color
+$alpha-midnight:    rgba(44, 62, 80, 0.8);

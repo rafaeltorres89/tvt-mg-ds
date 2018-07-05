@@ -1,0 +1,36 @@
+@import "general";
+
+html, body
+{ @include default; }
+
+p, label, span, a, li
+{
+    @if (lightness($silver) < 30) {
+        color: $light;
+    } @else {
+        color: $concrete;
+    }
+}
+
+p strong, a strong, span strong
+{ @extend #BOLD; }
+
+a:hover { color: $cherry; }
+
+ul
+{
+    @include space;
+    @extend #NO-LIST;
+}
+
+.bgDark         { background: $dark; }
+.bg-light       { background: $light; }
+.bg-silver      { background: $silver; }
+
+.pull-left      { @extend #LEFT; }
+.pull-right     { @extend #RIGHT; }
+
+body
+{
+    background: #f00;
+}

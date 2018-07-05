@@ -1,0 +1,23 @@
+/* Checkbox
+----------------------------------------------------------------------- */
+.btn
+{
+    @extend #UPPERCASE;
+    width: 200px;
+    padding: 15px 0;
+}
+
+.btn-trans
+{
+    @include btnDef;
+    @include btnTrans;
+}
+
+.btn-danger
+{
+    @include btnDef;
+    @include btnDanger;
+}
+
+.btn-light
+{ background: $light; }
