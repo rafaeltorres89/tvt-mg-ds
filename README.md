@@ -1,12 +1,15 @@
-# Design System | Mongeral Aegon
+# Life Design | Mongeral Aegon
 
 [![Build Status](https://img.shields.io/travis/rafaeltorres89/tvt-mg-ds/master.svg?style=flat)](https://travis-ci.org/rafaeltorres89/tvt-mg-ds)
 [![GitHub forks](https://img.shields.io/github/forks/rafaeltorres89/tvt-mg-ds.svg)](https://github.com/rafaeltorres89/tvt-mg-ds/network)
-[![GitHub stars](https://img.shields.io/github/stars/rafaeltorres89/tvt-mg-ds.svg)](https://github.com/rafaeltorres89/tvt-mg-ds/stargazers)
-[![GitHub issues](https://img.shields.io/github/issues/rafaeltorres89/tvt-mg-ds.svg)](https://github.com/rafaeltorres89/tvt-mg-ds/issues)
 [![npm](https://img.shields.io/npm/v/npm.svg)](https://github.com/rafaeltorres89/tvt-mg-ds/npm)
 
 -------
+
+<h3 align="center">
+  <img src="https://madstyle.mongeralaegon.com.br/assets/app/css/img/site/global/mongeral-aegon-logo-site.png" alt="Mongeral Aegon" />
+</h3>
+
 <p align="center">
     <a href="#About">About</a> &bull;
     <a href="#features">Features</a> &bull;
@@ -16,9 +19,7 @@
 
 ## About
 
-<h3 align="center">
-  <img src="https://madstyle.mongeralaegon.com.br/assets/app/css/img/site/global/mongeral-aegon-logo-site.png" alt="Mongeral Aegon" />
-</h3>
+This fasda 
 
 ## Motivation
 
