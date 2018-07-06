@@ -286,19 +286,3 @@ p, label, span, a, li {
 a:hover {
   color: #FF1D5B;
 }
-
-.bgDark {
-  background: #201F24;
-}
-
-.bg-light {
-  background: white;
-}
-
-.bg-silver {
-  background: #E8E8E8;
-}
-
-body {
-  background: #f00;
-}

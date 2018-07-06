@@ -35,7 +35,7 @@ gulp.task('sassdev', function() {
 gulp.task('sassprod', function() {
   return gulp.src(scssFiles)
     .pipe(sass(sassProdOptions).on('error', sass.logError))
-    .pipe(rename('style.min.css'))
+    .pipe(rename('mongeral.min.css'))
     .pipe(gulp.dest(cssDest));
 });
 
