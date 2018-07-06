@@ -11,7 +11,7 @@
 </h3>
 
 <p align="center">
-    <a href="#About">About</a> &bull;
+    <a href="#about">About</a> &bull;
     <a href="#features">Features</a> &bull;
     <a href="#organization">Organization</a> &bull;
     <a href="#installation">Installation</a>
@@ -19,9 +19,13 @@
 
 ## About
 
-This fasda 
+The Life Design of Aegon Mongeral was thought of as an enterprise desgin system. Where all development and creation content is presented directly on the website www.lifedesign-mongeral.com
 
-## Motivation
+The goal since git directory, is to store the developed and created structure as a backup. In addition, you are thinking of contributing to the development of Life Design, you will be able to learn in an easy and effective way what and how we work in our team.
+
+Welcome, and good luck!
+
+## Features
 
 This repository supports a series of posts that will show how to create an iOS app from scratch, using many different pods and tools that will make your life easier. The project will have Marvel's theme and use its [API](https://developer.marvel.com). You can usually find this information elsewhere but it is usually splitted in different unrelated tutorials, my approach here is to convey all within a single project
 
