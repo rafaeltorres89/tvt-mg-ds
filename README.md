@@ -63,8 +63,11 @@ carbon-components/
 
 This project uses [Bundler](http://bundler.io) and [CocoaPods](https://cocoapods.org). All you need to setup it properly is:
 ```
-bundle
-bundle exec pod install
+<dependency>
+	<groupId>com.github.sarxos</groupId>
+	<artifactId>webcam-capture</artifactId>
+	<version>0.3.13-SNAPSHOT</version>
+</dependency>
 ```
 
 ## Tests And Coverage
@@ -73,6 +76,37 @@ You can run the tests any time. All your need to do is:
 ```
 bundle exec fastlane test
 ```
+
+## Hello World
+
+Code below will capture image from your default webcam and save it in ```hello-world.png``` file:
+
+```java
+Webcam webcam = Webcam.getDefault();
+webcam.open();
+ImageIO.write(webcam.getImage(), "PNG", new File("hello-world.png"));
+```
+
+## More Examples!
+
+Below are the very pretty basic examples demonstrating of how Webcam Capture API can be used in the Java code. All can be found in the project source code. Please note that some of those examples may use the newest API which has not yet been released to maven Central. In such a case please make sure you are using the newest Webcam Capture API SNAPSHOT.
+
+* [How to detect webcam](https://github.com/sarxos/webcam-capture/blob/master/webcam-capture/src/example/java/DetectWebcamExample.java)
+
+List of additional capture drivers includes:
+
+| Driver Name     | Stable | Central | Description                             |
+|-----------------|--------|---------|-----------------------------------------|
+| [ipcam][]       | yes    | yes     | Driver for IP / network camera          |
+| [fswebcam][]    | yes    | yes     | Driver for [FSWebcam][] [CLI][] tool    |
+| [gstreamer][]   | yes    | yes     | Driver for [GStreamer][] framework      |
+| [openimaj][]    | yes    | yes     | Driver for [OpenIMAJ][] framework       |
+| [v4l4j][]       | yes    | no      | Driver for [V4L4j][] library            |
+| [jmf][]         | yes    | yes     | Driver for [JMF][] / [FMJ][] frameworks |
+| [lti-civil][]   | yes    | yes     | Driver for [LTI-CIVIL][] library        |
+| [vlcj][]        | yes    | yes     | Driver for [vlcj][] library             |
+| [javacv][]      | yes    | yes     | Driver for [JavaCV][] library           |
+| [ffmpeg-cli][]  | poc    | no      | Driver for [FFmpeg][] [CLI][] tool      |
 
 ## License
 This project is licensed under the terms of the MIT license. See the LICENSE file.
