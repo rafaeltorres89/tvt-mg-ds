@@ -78,6 +78,20 @@ To work on the project, you need to perform some functions on your system and gi
 
 Configure your machine as follows:
 
+* Logue com sua conta no GIT.
+* Acesse o projeto no link [Life Design Mongeral no Git](https://github.com/rafaeltorres89/tvt-mg-ds).
+* No botão "FORK", no canto superior do seu git, clique e espere o ok da página. 
+* Após o fork do repositório, repare que abaixo do nome do repositório é mostrado o repositório original. 
+* Clone o respositório no botão verde acima do conteúdo. 
+* Crie uma brach para codar as features. 
+* Em paralelo, instale o npm em sua máquina.
+* Agora instale o gulp
+* Instale o Dev-Gulp (repare que aparecerá a pasta XPTO)
+* Instale o Sass-Gulp
+
+
+
+
 ```
 <dependency>
 	<groupId>com.github.sarxos</groupId>
