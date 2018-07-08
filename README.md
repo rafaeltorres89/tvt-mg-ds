@@ -81,7 +81,7 @@ Configure your machine as follows:
 * Logue com sua conta no GIT.
 
 <h4 align="center">
-  <img src="https://ibb.co/f7BuMo" alt="Mongeral Aegon" />
+  <img src="https://image.ibb.co/cmZs7T/git_init.png" alt="Mongeral Aegon" />
 </h4>
 
 * Acesse o projeto no link [Life Design Mongeral no Git](https://github.com/rafaeltorres89/tvt-mg-ds).
