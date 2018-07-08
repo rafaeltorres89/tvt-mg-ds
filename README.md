@@ -44,6 +44,7 @@ gulp-file/
 │   │   └── mongeral.min.css
 │   ├── img
 │   └── js
+├── node_modules* (ignore git)
 ├── src
 │   └── scss
 │       │── base
