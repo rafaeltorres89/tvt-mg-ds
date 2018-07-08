@@ -34,26 +34,37 @@ Write
 
 ## Organization
 
-Creating a Marvel iOS App from scratch..
+Complete design structure
 
 ```
-carbon-components/
-├── html
-├── css
-│   ├── carbon-components.css
-│   └── carbon-components.min.css
-├── scripts
-│   ├── carbon-components.js
-│   └── carbon-components.min.js
-├── scss
-│   └── components
-│       └── modal
-│           └── _modal.scss
-├── umd
-│   └── index.js
-├── es
-│   └── index.js
-└── src
+README.md
+gulp-file/
+├── assets
+│   ├── css
+│   │   │── app.css
+│   │   └── mongeral.min.css
+│   ├── img
+│   └── js
+├── src
+│   └── scss
+│       │── base
+│       │   └── _nomalize.scss
+│       │── components
+│       │   │── _button.scss
+│       │   └── _checkbox.scss
+│       │── helpers
+│       │   │── _animate.scss
+│       │   │── _colors.scss
+│       │   │── _fonts.scss
+│       │   │── _mixins.scss
+│       │   │── _settings.scss
+│       │   └── _variables.scss
+│       │── _general.scss
+│       └── app.scss
+├── .gitignore
+├── gulpfile.js
+├── index.html
+└── packege.json
 ```
 
 
