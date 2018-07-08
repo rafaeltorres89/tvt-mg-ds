@@ -37,7 +37,6 @@ Write
 Complete design structure
 
 ```
-README.md
 gulp-file/
 ├── assets
 │   ├── css
@@ -65,6 +64,7 @@ gulp-file/
 ├── gulpfile.js
 ├── index.html
 └── packege.json
+README.md
 ```
 
 
