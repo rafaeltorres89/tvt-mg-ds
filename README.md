@@ -72,7 +72,12 @@ README.md
 
 ## Installation
 
-This project uses [Bundler](http://bundler.io) and [CocoaPods](https://cocoapods.org). All you need to setup it properly is:
+For this work, we are using technologies such as [Gulp](https://gulpjs.com/), [Sass](https://sass-lang.com/), [NPM](https://www.npmjs.com/) and [React Native](http://www.reactnative.com/). If you do not know these technologies, click on the links and read about them.
+
+To work on the project, you need to perform some functions on your system and git.
+
+Configure your machine as follows:
+
 ```
 <dependency>
 	<groupId>com.github.sarxos</groupId>
