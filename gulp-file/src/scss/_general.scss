@@ -3,12 +3,14 @@
 @import "vendor/bootstrap-4.1.1/bootstrap-grid";
 @import "vendor/bootstrap-4.1.1/bootstrap-reboot";
 
+/* Settings */
+@import "settings/colors";
+@import "settings/variables";
+@import "settings/oocss";
+@import "settings/mixins";
+
 /* Helpers */
-@import "helpers/colors";
 @import "helpers/fonts";
-@import "helpers/variables";
-@import "helpers/settings";
-@import "helpers/mixins";
 @import "helpers/animate";
 
 /* Components */
